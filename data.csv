@@ -1,0 +1,11 @@
+repository,description,language,ratings
+OWASP/Top10,Official OWASP Top 10 Document Repository,HTML,1.4k
+mbadry1/Top-Deep-Learning,Top 200 deep learning Github repositories sorted by the number of stars.,Python,942
+spring-projects/spring-data-rest,Simplifies building hypermedia-driven REST web services on top of Spring Data repositories,Java,651
+trinker/topicmodels_learning,A repository of learning & R resources related to topic models,R,184
+RobThree/MongoRepository,Repository abstraction layer on top of Official MongoDB C# driver,C#,269
+mmazzarolo/top-github,Android app for browsing GitHub top repositories,Java,89
+csdms-contrib/topotoolbox,This repository contains the latest release. A newer pre-release version is available at wschwanghart/topotoolbox,HTML,16
+larsmaaloee/deep-belief-nets-for-topic-modeling,This repository is a proof of concept toolbox for using Deep Belief Nets for Topic Modeling in Python.,Python,137
+mbadry1/Trending-Deep-Learning,Top 100 trending deep learning repositories sorted by the number of stars gained on a specific day.,Python,391
+coyotebush/github-network-analysis,Analysis and visualization of top GitHub repositories,Python,96

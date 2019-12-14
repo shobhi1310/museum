@@ -1,0 +1,1096 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   National Museum, New Delhi
+  </title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="js/jquery-1.6.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.jqzoom-core.js" type="text/javascript">
+  </script>
+  <link href="js/jquery.jqzoom.css" rel="stylesheet" type="text/css"/>
+  <style css"="" type"text="">
+   .jqzoom{
+
+	text-decoration:none;
+	float:left;
+}
+  </style>
+  <script type="text/javascript">
+   $(document).ready(function() {
+	$('.jqzoom').jqzoom({
+            zoomType: 'reverse',
+            lens:true,
+            preloadImages: false,
+            alwaysOn:false
+        });
+	//$('.jqzoom').jqzoom();
+});
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54985282-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+ </head>
+ <body>
+  <div id="mainContainer">
+   <div id="header">
+    <div style="width:335px; height:25px; position:absolute; right:0; margin-top:5px;">
+     <a href="http://gandhi.gov.in/" style="position: absolute; left: -72px; top: 0;" target="_blank">
+      <img alt="" border="0" src="images/ba-m-gandhi-th.jpg"/>
+     </a>
+     <a href="https://www.facebook.com/Nationalmuseumnewdelhi" target="_blank">
+      <img alt="" border="0" src="images/facebook-icon.png"/>
+     </a>
+     <a href="https://www.instagram.com/nmnewdelhi" target="_blank">
+      <img alt="" border="0" src="images/instagram.png"/>
+     </a>
+     <a href="https://twitter.com/NMnewdelhi" target="_blank">
+      <img alt="" border="0" src="images/twitter.png"/>
+     </a>
+     <a href="https://www.google.com/culturalinstitute/collection/national-museum-delhi?projectId=art-project" target="_blank">
+      <img alt="" border="0" src="images/google-icon.png"/>
+     </a>
+     <a href="http://museumsofindia.gov.in/repository/museum/nat_del" target="_blank">
+      <img alt="" border="0" src="images/nm-colloection.png"/>
+     </a>
+    </div>
+    <div class="logo">
+     <a href="index.asp">
+      <img alt="" border="0" src="images/logo.gif"/>
+     </a>
+    </div>
+    <div class="rightside">
+     <div class="hindi">
+      English   |
+      <a href="hindi/index.asp" target="_blank">
+       हिन्दी
+      </a>
+     </div>
+     <p>
+      <strong>
+       <u>
+        <script>
+         /*Current date script credit: 
+JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+*/
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write(""+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"")
+        </script>
+       </u>
+      </strong>
+     </p>
+     <ul class="toplinks">
+      <!--<li><a href="http://www.nmi.gov.in/" target="_blank">National Museum Institute</a></li>-->
+      <li>
+       <a href="E-auction-of-mementos-presented-pm-narendra-modi.asp">
+        E-Auction of Mementos presented to P.M. Narendra Modi
+       </a>
+      </li>
+      <!--<li><a href="#">HHEC Shop</a></li>
+    <li><a href="vacancy.asp">Vacancy</a></li>-->
+      <!-- <li><a href="active-tenders.asp?lk=pb1">Tenders</a></li>
+	<li><a href="faqs.asp">FAQs</a></li>-->
+      <li>
+       <a href="feedback.asp">
+        Feedback
+       </a>
+      </li>
+      <!--<li><a target="_blank" href="pdfs/Film-Schedule-for-October.pdf">Film Shows</a></li>-->
+      <li>
+       <a href="volunteer-guide-programme.asp">
+        Volunteer Guide Programme
+       </a>
+      </li>
+      <li>
+       <a href="training.asp">
+        Training
+       </a>
+      </li>
+      <li>
+       <a href="contact-us.asp" style="padding-right:0; border-right:0;">
+        Contact Us
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="clearfloat">
+    </div>
+    <div class="navigation">
+     <link href="ddlevelsfiles/ddlevelsmenu-base.css" rel="stylesheet" type="text/css"/>
+     <link href="css/ddsmoothmenu-v.css" rel="stylesheet" type="text/css"/>
+     <script src="ddlevelsfiles/ddlevelsmenu.js" type="text/javascript">
+     </script>
+     <script type="text/javascript">
+      ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+     </script>
+     <script type="text/javascript">
+      ddsmoothmenu.init({
+	mainmenuid: "smoothmenu2", //Menu DIV id
+	orientation: 'v', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu-v', //class added to menu's outer DIV
+	//customtheme: ["#804000", "#482400"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+     </script>
+     <!--[if IE 9]>
+
+<style>
+
+    * {letter-spacing: -0.2px;}
+
+</style>
+
+<![endif]-->
+     <div style="float:left">
+      <img src="images/menu-leftside.gif"/>
+     </div>
+     <div id="ddtopmenubar" style="float:left; width:949px; margin-top:5px;">
+      <ul>
+       <li>
+        <a href="index.asp" style="background:#fff; padding:0 18px; color:#000000; background:url(images/menu-border.gif) no-repeat right top #fff;">
+         Home
+        </a>
+       </li>
+       <li style="background:none;">
+        <a href="#" rel="ddsubmenu1">
+         About the Museum
+        </a>
+       </li>
+       <li>
+        <a href="collections.asp" rel="ddsubmenu4">
+         Collections
+        </a>
+       </li>
+       <li>
+        <a href="#" rel="ddsubmenu2">
+         Visiting
+        </a>
+       </li>
+       <li>
+        <a href="#" rel="ddsubmenu3">
+         Explore
+        </a>
+       </li>
+       <!-- <li><a href="#">Learning</a></li>-->
+       <li>
+        <a href="#" rel="ddsubmenu6">
+         Publications
+        </a>
+       </li>
+       <li>
+        <a href="events.asp">
+         Events
+        </a>
+       </li>
+       <li>
+        <a href="#" rel="ddsubmenu5">
+         Exhibitions
+        </a>
+       </li>
+       <li>
+        <a href="#" rel="ddsubmenu7">
+         Services
+        </a>
+       </li>
+       <li>
+        <a href="#" rel="ddsubmenu8">
+         Acts and Rules
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu1">
+       <!--<li><a href="https://www.pmmementos.gov.in/" target="_blank">E-Auction of PM mementos</a></li>-->
+       <li>
+        <a href="about-history.asp?lk=ab1">
+         History
+        </a>
+       </li>
+       <li>
+        <a href="about-vision-mission.asp?lk=ab1a">
+         Vision &amp; Mission
+        </a>
+       </li>
+       <li>
+        <a href="cpios.asp?lk=cp7">
+         CPIOs
+        </a>
+       </li>
+       <li>
+        <a href="about-conservation-lab.asp?lk=ab7">
+         Conservation Laboratory
+        </a>
+       </li>
+       <li>
+        <a href="about-display.asp?lk=ab11">
+         Display
+        </a>
+       </li>
+       <li>
+        <a href="about-education.asp?lk=ab4">
+         Education
+        </a>
+       </li>
+       <li>
+        <a href="about-exhibition-cell.asp?lk=ab8">
+         Exhibition Cell
+        </a>
+       </li>
+       <li>
+        <a href="about-library.asp?lk=ab9">
+         Library
+        </a>
+       </li>
+       <li>
+        <a href="about-modelling.asp?lk=ab5">
+         Modelling
+        </a>
+       </li>
+       <li>
+        <a href="about-photography.asp?lk=ab6">
+         Photography
+        </a>
+       </li>
+       <li>
+        <a href="about-publications.asp?lk=ab2">
+         Publication Department
+        </a>
+       </li>
+       <li>
+        <a href="about-public-relations.asp?lk=ab3">
+         Public Relations
+        </a>
+       </li>
+       <!--<li><a href="about-gifts.asp?lk=ab10">Gifts and Short Term Loans</a></li>-->
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu2">
+       <li>
+        <a href="visiting.asp">
+         Visitor Information
+        </a>
+       </li>
+       <li>
+        <a href="visiting-exp.asp">
+         Visitor's Experience
+        </a>
+       </li>
+       <li>
+        <a href="volunteer-guide-programme.asp">
+         Volunteer Guide Programme
+        </a>
+       </li>
+       <!--<li><a target="_blank" href="http://www.nmi.gov.in/departmentsmuseologyyuvasaathibookthetour.htm">Yuva Saathi</a></li>-->
+       <li>
+        <a href="visiting-youva-saathi.asp">
+         Yuva Saathi Programme
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu3" style="width:120px;">
+       <li>
+        <a href="explore-ground-floor.asp?lk=ex1">
+         Ground Floor
+        </a>
+       </li>
+       <li>
+        <a href="explore-first-floor.asp?lk=ex2">
+         First Floor
+        </a>
+       </li>
+       <li>
+        <a href="explore-second-floor.asp?lk=ex3">
+         Second Floor
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu4">
+       <li>
+        <a href="departments-archaeology.asp?lk=dp2">
+         Archaeology
+        </a>
+       </li>
+       <li>
+        <a href="departments-anthropology.asp?lk=dp8">
+         Anthropology
+        </a>
+       </li>
+       <li>
+        <a href="departments-arms-armour.asp?lk=dp9">
+         Arms &amp; Armour
+        </a>
+       </li>
+       <li>
+        <a href="departments-tactile-gallery.asp?lk=dp12">
+         Anubhav - A Tactile Gallery
+        </a>
+       </li>
+       <li>
+        <a href="departments-central-asian-antiquity.asp?lk=dp5">
+         Central Asian Antiquities
+        </a>
+       </li>
+       <li>
+        <a href="departments-decorative-art.asp?lk=dp6">
+         Decorative Arts
+        </a>
+       </li>
+       <li>
+        <a href="departments-jewellery-gallery.asp?lk=dp11">
+         Jewellery
+        </a>
+       </li>
+       <li>
+        <a href="departments-manuscripts.asp?lk=dp10">
+         Manuscripts
+        </a>
+       </li>
+       <li>
+        <a href="departments-miniature-numismatic.asp?lk=dp4">
+         Numismatics &amp; Epigraphy
+        </a>
+       </li>
+       <li>
+        <a href="departments-miniature-paintings.asp?lk=dp3">
+         Paintings
+        </a>
+       </li>
+       <li>
+        <a href="departments-pre-columbian-wa.asp?lk=dp7">
+         Pre-Columbian &amp; Western Art
+        </a>
+       </li>
+       <li>
+        <a href="departments-pre-history.asp?lk=dp1">
+         Pre History
+        </a>
+       </li>
+       <!--<li><a href="collections.asp#harappan">Harappan Civilisation</a></li>
+<li><a href="collections.asp#archaeology">Archaeology</a></li>
+<li><a href="collections.asp#buddhist">Buddhist Art</a></li>
+<li><a href="collections.asp#insian">Insian Miniature Painting</a></li>
+<li><a href="collections.asp#evolution">Evolution of Indian Scripts and Coins</a></li>
+<li><a href="collections.asp#central">Central Asian Antiquity</a></li>
+<li><a href="collections.asp#coins">Coins</a></li>
+<li><a href="collections.asp#indian">Indian Textiles</a></li>
+<li><a href="collections.asp?#pre">Pre-Columbian and Western Art</a></li>
+<li><a href="collections.asp#wood">Wood Carving</a></li>
+<li><a href="collections.asp#music">Musical Instruments</a></li>
+<li><a href="collections.asp#tribal">Tribal Life-Style in North-East</a></li>
+<li><a href="collections.asp#arms">Arms and Armour</a></li>
+<li><a href="collections.asp#temple">Temple Chario</a></li>-->
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu5">
+       <li>
+        <a href="exhibitions-reserve.asp?lk=ex5">
+         From the Reserve
+        </a>
+       </li>
+       <li>
+        <a href="exhibitions.asp?lk=ex1">
+         Current Exhibitions
+        </a>
+       </li>
+       <li>
+        <a href="exhibitions-upcoming.asp?lk=ex2">
+         Upcoming Exhibitions
+        </a>
+       </li>
+       <li>
+        <a href="exhibitions-past.asp?lk=ex3">
+         Past Exhibitions
+        </a>
+       </li>
+       <li>
+        <a href="online-exhibitions.asp?lk=ex4">
+         Online Exhibitions
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu6">
+       <li>
+        <a href="publications-books.asp?lk=pb1">
+         Books
+        </a>
+       </li>
+       <li>
+        <a href="e-books.asp?lk=pb7">
+         E-Books
+        </a>
+       </li>
+       <li>
+        <a href="publications-exhibition-catalogue.asp?lk=pb2">
+         Exhibition Catalogue
+        </a>
+       </li>
+       <li>
+        <a href="publications-exhibition-national-museum-bulletin.asp?lk=pb3">
+         National Museum Bulletin
+        </a>
+       </li>
+       <li>
+        <a href="publications-portfolio.asp?lk=pp2">
+         Portfolios
+        </a>
+       </li>
+       <li>
+        <a href="publications-gallery-sheets.asp?lk=pb4">
+         Gallery Sheets
+        </a>
+       </li>
+       <li>
+        <a href="publications-picture-postcards.asp?lk=pb6">
+         Picture Postcards
+        </a>
+       </li>
+       <li>
+        <a href="publications-exhibition-merchandize.asp?lk=pb8">
+         Merchandize
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu7">
+       <li>
+        <a href="services-request-photograph.asp?lk=rp">
+         Request a Photograph
+        </a>
+       </li>
+       <li>
+        <a href="services-for-children.asp?lk=fc">
+         For Children
+        </a>
+       </li>
+       <li>
+        <a href="services-for-disabled.asp?lk=fd">
+         For the Disabled
+        </a>
+       </li>
+       <li>
+        <a href="nm-short-term-courses.asp?lk=stc">
+         NM Short Term Courses
+        </a>
+       </li>
+       <li>
+        <a href="nm-internship-programme.asp?lk=nmip">
+         NM Internship Programme
+        </a>
+       </li>
+      </ul>
+      <ul class="ddsubmenustyle" id="ddsubmenu8">
+       <li>
+        <a href="acts-information-act.asp?lk=ria">
+         Right to Information ACT
+        </a>
+       </li>
+       <li>
+        <a href="acts-cpio.asp?lk=cpio">
+         Central Public Information Officers (CPIOs)
+        </a>
+       </li>
+      </ul>
+      <div class="clearfloat">
+      </div>
+     </div>
+     <div style="float:right">
+      <img src="images/menu-rightside.gif"/>
+     </div>
+     <div class="clearfloat">
+     </div>
+    </div>
+   </div>
+   <div class="main-pic">
+    <img src="images/history-bnner.jpg"/>
+    <br/>
+    <img src="images/home-mpic-bot-shadow.gif"/>
+   </div>
+   <div id="breadcrumbs">
+    <div class="h1">
+     Collections
+    </div>
+    <div style="float:right">
+     <strong style="color:#ffffff;">
+      You are here:
+     </strong>
+     <a class="home" href="index.asp">
+      Home
+     </a>
+     -   Collections  -   Archaeology
+    </div>
+    <div class="clearfloat">
+    </div>
+   </div>
+   <div id="lside">
+    <ul>
+     <li>
+      <span>
+       Archaeology
+      </span>
+     </li>
+     <li>
+      <a href="departments-anthropology.asp?lk=dp8">
+       Anthropology
+      </a>
+     </li>
+     <li>
+      <a href="departments-arms-armour.asp?lk=dp9">
+       Arms &amp; Armour
+      </a>
+     </li>
+     <li>
+      <a href="departments-tactile-gallery.asp?lk=dp12">
+       Anubhav - A Tactile Gallery
+      </a>
+     </li>
+     <li>
+      <a href="departments-central-asian-antiquity.asp?lk=dp5">
+       Central Asian Antiquities
+      </a>
+     </li>
+     <li>
+      <a href="departments-decorative-art.asp?lk=dp6">
+       Decorative Arts
+      </a>
+     </li>
+     <li>
+      <a href="departments-jewellery-gallery.asp?lk=dp11">
+       Jewellery
+      </a>
+     </li>
+     <li>
+      <a href="departments-manuscripts.asp?lk=dp10">
+       Manuscripts
+      </a>
+     </li>
+     <li>
+      <a href="departments-miniature-numismatic.asp?lk=dp4">
+       Numismatics &amp; Epigraphy
+      </a>
+     </li>
+     <li>
+      <a href="departments-miniature-paintings.asp?lk=dp3">
+       Paintings
+      </a>
+     </li>
+     <li>
+      <a href="departments-pre-columbian-wa.asp?lk=dp7">
+       Pre-Columbian &amp; Western Arts
+      </a>
+     </li>
+     <li>
+      <a href="departments-pre-history.asp?lk=dp1">
+       Pre History
+      </a>
+     </li>
+    </ul>
+    <!--<img src="images/inner-sidepic.jpg" />-->
+   </div>
+   <div id="data">
+    <div style="float:right; margin:35px 0 0 0px;">
+     <a class="link" href="JavaScript:history.back();" style="text-decoration:none;">
+      Back
+     </a>
+    </div>
+    <h1>
+     Archaeology
+    </h1>
+    <div style="width:470px; float:left; text-align:justify;">
+     <div class="pro-img-main">
+      <div class="pro-img">
+       <a class="jqzoom" href="images/products/Buddha.jpg" rel="gal1" title="Buddha">
+        <img alt="Buddha" border="0" src="images/products/arch-big2.jpg" title="Buddha"/>
+       </a>
+      </div>
+     </div>
+     <div class="clearfloat">
+     </div>
+     <p style="margin-top:2px; margin-bottom:-0px; font-size:11px;">
+      Hover over the image to see more details.
+     </p>
+     <div class="right-text">
+      <strong>
+       Buddha
+      </strong>
+      <br/>
+      <span>
+       6th Century AD, Gupta-Vakataka Period
+      </span>
+     </div>
+     <div class="clearfloat">
+     </div>
+     <div class="b-bold">
+      <p>
+      </p>
+      <p>
+       <strong>
+        Place of Origin:
+       </strong>
+       Phophnar, Madhya Pradesh,
+       <br/>
+       <strong>
+        Materials:
+       </strong>
+       Bronze
+       <br/>
+       <strong>
+        Dimensions:
+       </strong>
+       Ht: 45.5 L:17.0 W:13.8 cm.
+       <br/>
+       <strong>
+        Acc. No.
+       </strong>
+       L. 658
+      </p>
+      <p>
+       One of the finest that a bronze-caster's workshop has ever created this bronze sculpture represents the Enlightened one as moving across the world enlightening the ignorant masses, an image form usually classified as teaching Buddha. This bronze statue is one of the seven bronze images, a part of the famous hoard, discovered in 1964 from the village of Phophnar near Burhanpur in Madhya Pradesh. In the statue Buddha has been represented as standing with a gentle sway on the calyx of a lotus flower, the lotus itself now missing, rising out of a multi-tiered variously conceived rectangular pedestal more significant being base-part carved with open floral pattern. Over it rises a tall column holding a rounded seat which carries the divine image.
+      </p>
+      <p>
+       The fingers of the Buddha's right hand are in interpretive mode known in the iconographic tradition as '
+       <i>
+        vitark-mudra
+       </i>
+       ', which essentially combines 'abhaya' - freedom from fear suggesting, in the Buddhist context particularly, that once a person knew the cause of his fear there was no fear for him hence, the blend of two iconographic forms. Corresponding to the gesture of the right hand the left is held in complete ease. It elegantly holds the hem of his '
+       <i>
+        ekansika sanghati
+       </i>
+       ' - the outer garment laid over his left shoulder and down the left arm. Characteristic of Gupta art the image has been gently modeled and sensitively treated. It consists of an oval face, half closed eyes with silver-plated pupils, elongated ears, tight snails-like curly hair and long flowing drapery. The image bearing a three line inscription on the pedestal translated by Venkataramayya says, 'This is the meritorious gift of Bhadanta Buddhadasa the Sakya bhiksukacarya. Let the merit of (this) gift go to all sentient beings' is an example of the Buddhist convention of gifting the Master's images to monasteries and shrines, who could afford, for others' enlightenment.
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="width:250px; border:1px solid #ccc; float:right;  padding:10px;">
+     <h2 style="margin-bottom:20px;">
+      Other Related Exhibits
+     </h2>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=24&amp;id=2&amp;lk=dp2">
+       <img alt="Ganga" border="0" height="82" src="images/products/arch-th1.jpg" title="Ganga" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=25&amp;id=2&amp;lk=dp2">
+       <img alt="Buddha" border="0" height="82" src="images/products/arch-th2.jpg" title="Buddha" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=26&amp;id=2&amp;lk=dp2">
+       <img alt="Vishnu Vaikuntha" border="0" height="82" src="images/products/arch-th3.jpg" title="Vishnu Vaikuntha" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=27&amp;id=2&amp;lk=dp2">
+       <img alt="Nataraja" border="0" height="82" src="images/products/arch-th4.jpg" title="Nataraja" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=28&amp;id=2&amp;lk=dp2">
+       <img alt="Yaksha: Patravahaka" border="0" height="82" src="images/products/arch-th5.jpg" title="Yaksha: Patravahaka" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=29&amp;id=2&amp;lk=dp2">
+       <img alt="Shiva Vamana" border="0" height="82" src="images/products/arch-th6.jpg" title="Shiva Vamana" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=30&amp;id=2&amp;lk=dp2">
+       <img alt="Surya" border="0" height="82" src="images/products/arch-th7.jpg" title="Surya" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=31&amp;id=2&amp;lk=dp2">
+       <img alt="Saraswati" border="0" height="82" src="images/products/arch-th8.jpg" title="Saraswati" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=32&amp;id=2&amp;lk=dp2">
+       <img alt="Buddha Head" border="0" height="82" src="images/products/arch-th9.jpg" title="Buddha Head" width="82"/>
+      </a>
+     </div>
+     <div class="r-img">
+      <a href="prodCollections.asp?pid=33&amp;id=2&amp;lk=dp2">
+       <img alt="Mother Goddess" border="0" height="82" src="images/products/arch-th10.jpg" title="Mother Goddess" width="82"/>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="clearfloat">
+   </div>
+   <!--<div style="margin-top:10px; font-size:11px;">
+<!--<div style="float:right; text-align:center;"><img src="images/icon-galleries.gif" /><br />Galleries</div>
+-<div style="float:right; text-align:center;"><a href="http://nmi.gov.in/" target="_blank"><img src="images/icon-publication.gif" border="0" /></a><br />Publication</div>
+<!--<div style="float:right; text-align:center; margin-right:15px;"><img src="images/icon-shop.gif" /><br />Shop</div>
+<div style="float:right; text-align:center; margin-right:15px;"><img src="images/icon-institute.gif" /><br />Institute</div>
+<div class="clearfloat"></div>
+</div>-->
+  </div>
+  <div id="mainfooter">
+   <div id="footer">
+    <div class="flinks">
+     <h1>
+      About the museum
+     </h1>
+     <ul>
+      <li>
+       <a href="about-history.asp?lk=ab1">
+        History
+       </a>
+      </li>
+      <li>
+       <a href="about-vision-mission.asp?lk=ab1a">
+        Vision &amp; Mission
+       </a>
+      </li>
+      <li>
+       <a href="cpios.asp?lk=cp7">
+        CPIOs
+       </a>
+      </li>
+      <li>
+       <a href="about-conservation-lab.asp?lk=ab7">
+        Conservation Laboratory
+       </a>
+      </li>
+      <li>
+       <a href="about-education.asp?lk=ab4">
+        Education
+       </a>
+      </li>
+      <li>
+       <a href="about-exhibition-cell.asp?lk=ab8">
+        Exhibition Cell
+       </a>
+      </li>
+      <li>
+       <a href="about-library.asp?lk=ab9">
+        Library
+       </a>
+      </li>
+      <li>
+       <a href="about-modelling.asp?lk=ab5">
+        Modelling
+       </a>
+      </li>
+      <li>
+       <a href="about-photography.asp?lk=ab6">
+        Photography
+       </a>
+      </li>
+      <li>
+       <a href="about-publications.asp?lk=ab2">
+        Publication Department
+       </a>
+      </li>
+      <li>
+       <a href="about-public-relations.asp?lk=ab3">
+        Public Relations
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="flinks">
+     <h1>
+      Collections
+     </h1>
+     <ul>
+      <li>
+       <a href="departments-archaeology.asp?lk=dp2">
+        Archaeology
+       </a>
+      </li>
+      <li>
+       <a href="departments-anthropology.asp?lk=dp8">
+        Anthropology
+       </a>
+      </li>
+      <li>
+       <a href="departments-arms-armour.asp?lk=dp9">
+        Arms &amp; Armour
+       </a>
+      </li>
+      <li>
+       <a href="departments-central-asian-antiquity.asp?lk=dp5">
+        Central Asian Antiquities
+       </a>
+      </li>
+      <li>
+       <a href="departments-decorative-art.asp?lk=dp6">
+        Decorative Arts
+       </a>
+      </li>
+      <!--<li><a href="departments-jewellery.asp?lk=dp11">Jewellery</a></li> -->
+      <li>
+       <a href="departments-manuscripts.asp?lk=dp10">
+        Manuscripts
+       </a>
+      </li>
+      <li>
+       <a href="departments-miniature-numismatic.asp?lk=dp4">
+        Numismatic &amp; Epigraphy
+       </a>
+      </li>
+      <li>
+       <a href="departments-miniature-paintings.asp?lk=dp3">
+        Paintings
+       </a>
+      </li>
+      <li>
+       <a href="departments-pre-columbian-wa.asp?lk=dp7">
+        Pre-Columbian &amp; Western Art
+       </a>
+      </li>
+      <li>
+       <a href="departments-pre-history.asp?lk=dp1">
+        Pre - Histroic Archaeology
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="flinks" style="width:115px;">
+     <h1>
+      Explore
+     </h1>
+     <ul>
+      <li>
+       <a href="explore-ground-floor.asp?lk=ex1">
+        Ground Floor
+       </a>
+      </li>
+      <li>
+       <a href="explore-first-floor.asp?lk=ex2">
+        First Floor
+       </a>
+      </li>
+      <li>
+       <a href="explore-second-floor.asp?lk=ex3">
+        Second Floor
+       </a>
+      </li>
+     </ul>
+     <h1 style="margin-top:15px;">
+      Exhibitions
+     </h1>
+     <ul>
+      <li>
+       <a href="exhibitions.asp?lk=ex1">
+        Current Exhibitions
+       </a>
+      </li>
+      <li>
+       <a href="exhibitions-upcoming.asp?lk=ex2">
+        Upcoming Exhibitions
+       </a>
+      </li>
+      <li>
+       <a href="exhibitions-past.asp?lk=ex3">
+        Past Exhibitions
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="flinks" style="width:120px;">
+     <h1>
+      Publications
+     </h1>
+     <ul>
+      <li>
+       <a href="publications-books.asp?lk=pb1">
+        Books
+       </a>
+      </li>
+      <li>
+       <a href="publications-exhibition-catalogue.asp?lk=pb2">
+        Exhibition Catalogues
+       </a>
+      </li>
+      <li>
+       <a href="publications-exhibition-national-museum-bulletin.asp?lk=pb3">
+        National Museum Bulletins
+       </a>
+      </li>
+      <li>
+       <a href="publications-portfolio.asp?lk=pp2">
+        Portfolios
+       </a>
+      </li>
+      <li>
+       <a href="publications-gallery-sheets.asp?lk=pb4">
+        Gallery Sheets
+       </a>
+      </li>
+      <li>
+       <a href="publications-picture-postcards.asp?lk=pb6">
+        Picture Postcards / Reprints
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="flinks" style="border-right:0; width:100px;">
+     <h1>
+      Other links
+     </h1>
+     <ul>
+      <li>
+       <a href="http://nmi.gov.in/" target="_blank">
+        N.M. Institute
+       </a>
+      </li>
+      <!--<li><a href="#">HHEC Shop</a></li>-->
+      <li>
+       <a href="visiting.asp">
+        Visiting
+       </a>
+      </li>
+      <li>
+       <a href="event-calender.asp">
+        Calendar of events
+       </a>
+      </li>
+      <li>
+       <a href="vacancy.asp">
+        Vacancy
+       </a>
+      </li>
+      <li>
+       <a href="recruitment-rules.asp">
+        Recruitment Rules
+       </a>
+      </li>
+      <li>
+       <a href="active-tenders.asp?lk=pb1">
+        Tenders
+       </a>
+      </li>
+      <li>
+       <a href="faqs.asp">
+        FAQs
+       </a>
+      </li>
+      <li>
+       <a href="feedback.asp">
+        Feedback
+       </a>
+      </li>
+      <li>
+       <a href="contact-us.asp">
+        Contact Us
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="search">
+     <style>
+      .valfrmBAF {font-weight: 400; font-size: 11px; color: #F1BB00; font-family: arial; text-decoration: none; text-align:left;}
+     </style>
+     <script src="getQuery.js" type="text/javascript">
+     </script>
+     <script language="JavaScript" type="text/javascript">
+      function validateBAF()
+{
+	var count_bug=0;
+	var email_error;
+	
+	if((document.frmBAF.email.value == "") || (document.frmBAF.email.value=="Your email ID"))
+	{
+		document.getElementById('divemail').innerHTML = "&nbsp;Require E-mail.";
+		if(eval(count_bug)==0) 
+		document.frmBAF.email.focus();
+		count_bug+=1;
+	}	
+	else if(!isEmail(document.frmBAF.email.value))
+	{
+		document.getElementById('divemail').innerHTML = "&nbsp;Invalid E-mail ID.";
+		if(eval(count_bug)==0) 
+		document.frmBAF.email.focus();
+		count_bug+=1;
+	}
+	
+	if(count_bug>0)
+		return false;
+	else
+		getBAF();
+}
+     </script>
+     <script language="JavaScript" type="text/javascript">
+      function isEmail (emailIn){
+	var isEmailOk = false;
+	  var filter = /^[a-zA-Z0-9][a-zA-Z0-9._-]*\@[a-zA-Z0-9-]+(\.[a-zA-Z][a-zA-Z-]+)+$/
+
+	if(emailIn.search(filter) != -1)
+		isEmailOk = true;
+	if(emailIn.indexOf("..") != -1)
+		isEmailOk = false;
+	if(emailIn.indexOf(".@") != -1)
+		isEmailOk = false;
+
+	return isEmailOk;
+}
+     </script>
+     <h1 style="float:left;">
+      Become a Friend
+     </h1>
+     <div id="divBAF">
+      <form name="frmBAF">
+       <input class="inp1" id="email" maxlength="75" name="email" onblur="if (this.value == '') {this.value = 'Your email ID';}" onfocus="if (this.value == 'Your email ID') {this.value = '';}" style="float:left; margin-top:5px;" type="text" value="Your email ID"/>
+       <span class="valfrmBAF" id="divemail">
+       </span>
+       <input class="but" name="button" onclick="validateBAF();" style="float:left; margin-left:5px; margin-top:5px;" type="button" value="Submit"/>
+      </form>
+     </div>
+     <br/>
+     <br/>
+     <!--<div style="float:left;"><input name="textfield" type="text" class="inp" id="textfield" value="Search National Museum" /></div><div style="float:left;"><img src="images/icon-magnify.gif" /></div>-->
+     <div class="clearfloat">
+     </div>
+     <br/>
+     <br/>
+     <p>
+      © Copyright 2012, all rights reserved with
+      <br/>
+      <strong>
+       National Museum, New Delhi (India)
+      </strong>
+     </p>
+     <p style="margin-top:15px;">
+      Site by:
+      <a class="csi" href="http://csipl.net" target="_blank">
+       Cross section
+      </a>
+     </p>
+     <div class="clearfloat" style="margin-bottom:10px;">
+     </div>
+     <div style="margin-bottom:5px;">
+      <strong>
+       Number of Visitors
+      </strong>
+     </div>
+     <a href="http://www.easycounter.com/">
+      <img alt="Hit Counters" border="0" src="http://www.easycounter.com/counter.php?nationalmuseum"/>
+     </a>
+    </div>
+    <div class="clearfloat">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
