@@ -2,36 +2,94 @@
 <meta charset="utf-8">
 <head>
     <title>Mapping with D3</title>
-	<script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
-	<script src="./india_district.json"></script>
+    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <style>
+        .container {
+            position: fixed;
+            left: 0px;
+            padding: 0;
+            margin: 0;
+            /* background-color: #ff00ff; */
+        }
+
+        .left {
+            background: rgb(64, 199, 64);
+            display: inline-block;
+            float: left;
+        }
+
+        .right {
+            /* background: red; */
+            display: inline-block;
+            margin: 5;
+            float: left;
+        }
+    </style>
+	<!-- <script src="./india_district.geojson"></script> -->
 </head>
 
 <body>
+    <div class="container">
     <script>
         var width = 700,
-            height = 580;
+            height = 700;
 
-        var svg = d3.select('body')
+        var svg = d3.select('.container')
                     .append('svg')
                     .attr('width',width)
-                    .attr('height',height);
+                    .attr('height',height)
+                    .attr('class','left');
 
         var g = svg.append('g');
 
-        var equiRect = d3.geoEquiRectangular()
-                        .scale(19000)
-                        .translate([width/2,height/2]);
+        var equiprojection = d3.geoEquirectangular()
+                                .scale( 900 )
+                                // .rotate( [71.057,0] )
+                                .center( [80.313, 20] )
+                                .translate( [width/2,height/2] );
 
-        var geopath = d3.geopath()
-                        .projection(equiRect);
-
-        g.selectAll("path")
-            .data(india_district_json.features)
+        var geopath = d3.geoPath()
+                        .projection(equiprojection);
+        
+        var kk = [[88.33831787109375,22.555683989943702],[85.10009765625,25.62171595984575],[80.33203125,26.509904531413927],[80.2880859375,13.111580118251648]];                
+                        
+        console.log(equiprojection(kk)[0]);
+        console.log("Hello");    
+        d3.json("india.json",function(error,data){
+          if(error) throw error;
+          g.selectAll("path")
+            .data(data.features)
             .enter()
             .append("path")
             .attr("fill","#ccc")
             .attr("stroke","#333")
-            .attr("g",geopath);
+            .attr("d",geopath);
+        });
+
+        function myMovefunction(id){
+            document.getElementById(id).style.color= "blue";
+            svg
+                .append("circle")
+                .attr("cx", equiprojection(kk[id])[0])
+                .attr("cy", equiprojection(kk[id])[1])
+                .attr("r", "4px")
+                .attr("fill", "red")            
+        }
+        function myOutfunction(id){
+            document.getElementById(id).style.color= "black";
+            svg.selectAll("circle").attr("r",0);
+        }
+
     </script>
+    <div id="result" class="right">
+    <div onmousemove="myMovefunction(this.id)" onmouseout="myOutfunction(this.id)" id="0">    Kolkata</div>
+    <div onmousemove="myMovefunction(this.id)" onmouseout="myOutfunction(this.id)" id="1">    Patna</div>
+    <div onmousemove="myMovefunction(this.id)" onmouseout="myOutfunction(this.id)" id="2">    Kanpur</div>
+    <div onmousemove="myMovefunction(this.id)" onmouseout="myOutfunction(this.id)" id="3">    Chennai</div>
+    <script>
+        // console.log("Hi");
+    </script>
+    </div>
+    </div>
 </body>
 </html>
